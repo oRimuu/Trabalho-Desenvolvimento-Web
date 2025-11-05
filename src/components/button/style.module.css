@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.Button {
+  background: transparent;
+  border-radius: 100px;
+  color: white;
+  border: 2px solid white;
+  padding: 0.7% 8%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 2%;
+  margin-left: 8%;
+
+  transition: all 0.7s ease;
+  box-shadow: 0 0 0px rgba(255, 255, 255, 0);
+}
+
+.Button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.07);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  border-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .Button {
+      padding: 2% 18%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .Button {
+    margin-left: 10%;
+    padding: 2% 20%;
+  }
+}
