@@ -5,12 +5,12 @@
   border-radius: 100px;
   color: white;
   border: 2px solid white;
-  padding: 0.7% 8%;
+  padding: 1vh 7.5vw;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   cursor: pointer;
   margin-top: 2%;
-  margin-left: 8%;
+  
 
   transition: all 0.7s ease;
   box-shadow: 0 0 0px rgba(255, 255, 255, 0);
@@ -30,13 +30,20 @@ a {
 
 @media screen and (max-width: 768px) {
   .Button {
-      padding: 2% 18%;
+      padding: 1.2vh 10vw;
   }
 }
 
 @media screen and (max-width: 570px) {
   .Button {
     margin-left: 10%;
-    padding: 2% 20%;
+    padding: 1.2vh 14vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Button {
+    margin-left: 0;
+    padding: 1.4vh 20vw;
   }
 }

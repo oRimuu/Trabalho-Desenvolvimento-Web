@@ -103,27 +103,13 @@
   opacity: 1;
 }
 
-input {
-  width: 500px;        
-  padding: 12px 20px;      
-  padding-right: 40px;    
-  border: 2px solid #ffffff;    
-  border-radius: 25px;       
-  background-color: rgba(255, 255, 255, 0.2); 
-  backdrop-filter: blur(2px);  
-  color: #ffffff;              
-  font-size: 16px;
-  outline: none;
-  transition: all 0.3s ease;
-}
-
-input:focus {
+.searchInput:focus {
   border-color: #007BFF;     
   background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); 
 }
 
-input::placeholder {
+.searchInput::placeholder {
   color: white;
 }
 
